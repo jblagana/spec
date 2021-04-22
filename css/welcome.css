@@ -1,0 +1,49 @@
+body{
+	background: #e7f7fd;
+}
+
+div{
+	text-align: center;
+	width: 50%;
+	border-radius: 30px;
+	background: linear-gradient(45deg,rgb(0,100,189),rgb(114,232,239));
+	padding: 10px;
+	margin: 13% auto;
+	color: #ffffff;
+	box-shadow: 3px 4px 10px #000000;
+	transition: background 2s;
+}
+
+div:hover{
+	background: linear-gradient(45deg,rgb(10,30,180),rgb(114,232,239));
+}
+
+div p{
+	font-family: antipasto pro;
+	letter-spacing: 3px;
+	word-spacing: 4px;
+	text-shadow: 3px 2px 10px #000000;
+	font-size: 40px;
+	margin-bottom: -20px;
+}
+
+div button{
+	padding: 10px;
+	width: 30%;
+	margin: 30px 0 30px 150px;
+	box-shadow: 2px 2px 10px;
+	font-variant: small-caps;
+	font-size: 15px;
+}
+
+div i{
+	color: #ffff33;
+	font-size: 35px;
+}
+
+div img{
+	width: 150px;
+	position: relative;
+	top: 40px;
+}
+

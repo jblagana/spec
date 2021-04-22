@@ -1,0 +1,61 @@
+table.cal{
+		background: #171717;
+            border: 2px solid;
+            border-spacing: 0;
+            border-color: #ffffff black black black; 
+            border-radius: 0 0 25px 25px;
+            width: 40%; 
+            margin: 20px 0 0 20px;
+}
+
+.cal th{
+			color: #ffffff;
+            font-variant: small-caps;
+            font-size: 150%;
+}
+
+.cal tbody tr:nth-child(odd){
+			background: #ffff33;
+}
+
+.cal tr:nth-child(even), thead{
+			background: #171717;
+            color: #ffffff;
+}
+
+.cal tr:last-child>td:first-child{
+			border-radius: 0 0 0 25px;
+}
+
+.cal tr:last-child>td:last-child{
+			border-radius: 0 0 25px 0px;
+}
+
+.cal caption{
+			text-transform: uppercase;
+            background: #171717;
+            color: #ffffff;
+            border-radius: 25px 25px 0 0;
+            font-size: 150%;
+            padding: 10px;
+}
+
+.cal td, th{
+		width: 80px;
+            height: 40px;
+            padding: 10px;
+}
+
+.cal td{
+			vertical-align: top;
+}
+.cal span{
+			display: block;
+            text-align: center;
+            color: sandybrown;
+            visibility: hidden;
+}
+
+.cal td:hover>span{
+			visibility: visible;
+}
